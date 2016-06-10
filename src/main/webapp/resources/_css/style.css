@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+body{
+  background-image: url("../_img/backgrounda1.jpg");
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.btn-inverse {
+  background: #202020;
+  color: white;
+  margin: 5px
+}
+
+.btn-inverse:hover {
+  background: #101010;
+  color: white;
+}
+
+.margin5 {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+/*ÚLTIMOS ANÚNCIOS ADICIONADOS*/
+div.list-group-item {
+	color: #373735 !important;
+    height:auto;
+    min-height:135px;
+    margin-top: 7px;
+}
+div.list-group-item.active small {
+    
+  background:  #455A64 !important;
+}
+
+div.list-group-item:hover {
+  background:  rgba(192,192,192,0.3) !important;
+}
+
+.anuncio {
+	color: #373735;
+    height:auto;
+    min-height:135px;
+    margin-top: 7px;
+    background: white !important;
+    margin-left: 70px; 
+    margin-right: 70px; 
+    height: 435px !important
+}
+
+.div-content-anuncios{
+  height: 550px;
+  overflow: auto;
+  width: 1058px
+}
+
+.div-content-todos-anuncios{
+  height: 426px;
+  overflow: auto
+}
+
+.alinhamento-content{
+	left: 25px;
+}
+
+.div-content-sidebar{
+  top: 63px;
+  height: 550px;
+  overflow: auto;
+}
+
+.alinhamento-sidebar{
+  overflow: none; 
+  left: 22px
+}
+
+/*ETC*/
+
+.row-content {
+  position: absolute;
+  top: 10%
+}
+
+.footer-content {
+  position: absolute;
+  top: 105%;
+  width: 85%;
+  left: 7.5
+}
+
+.well-override {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
